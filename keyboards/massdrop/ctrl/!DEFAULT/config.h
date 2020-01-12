@@ -28,29 +28,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT             "CTRL Keyboard"
 #define SERIAL_NUM          "Unavailable"
 
-/* ------------------------- Made by Tweaky ------------------------- */
-/* Read what you can put in this file here: https://github.com/qmk/qmk_firmware/blob/master/docs/config_options.md */
-/* The time values are in ms */
-
-/* Features That Can Be Enabled */
-#define FORCE_NKRO
-/* Behaviours That Can Be Configured */
-#define TAPPING_TERM 200 /* how long before a tap becomes a hold, if set above 500, a key tapped during the tapping term will turn it into a hold too */
-#define TAPPING_TOGGLE 2 /* how many taps before triggering the toggle */
-#define LEADER_TIMEOUT 300 /* how long before the leader key times out */
-#define ONESHOT_TIMEOUT 300 /* how long before oneshot times out */
-#define ONESHOT_TAP_TOGGLE 2 /* how many taps before oneshot toggle is triggered */
-#define COMBO_COUNT 2 /* Set this to the number of combos that you're using in the Combo feature. */
-#define COMBO_TERM 200 /* how long for the Combo keys to be detected. Defaults to TAPPING_TERM if not defined. */
-#define TAP_CODE_DELAY 100 /* Sets the delay between register_code and unregister_code, if you're having issues with it registering properly  */
-/* Mouse Key Options */
-#define MOUSEKEY_INTERVAL 20
-#define MOUSEKEY_DELAY 0
-#define MOUSEKEY_TIME_TO_MAX 60
-#define MOUSEKEY_MAX_SPEED 7
-#define MOUSEKEY_WHEEL_DELAY 0
-/* ------------------------- Made by Tweaky (END) ------------------------- */
-
 /* key matrix size */
 #define MATRIX_ROWS 11
 #define MATRIX_COLS 8
@@ -148,17 +125,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_MATRIX_LED_FLUSH_LIMIT 10
 
 #include "config_led.h"
-
-
-
-
-
-/* ------------------------- RGB_MATIRIX_ENABLE WS2812: Made by Tweaky (START) ------------------------- */
-// The pin connected to the data pin of the LEDs
-#define RGB_DI_PIN D7
-
-// The number of LEDs connected
-#define DRIVER_LED_TOTAL 70
-
-
-/* ------------------------- RGB_MATIRIX_ENABLE WS2812: Made by Tweaky (END) ------------------------- */

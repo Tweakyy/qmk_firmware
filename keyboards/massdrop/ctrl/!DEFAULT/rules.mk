@@ -36,13 +36,3 @@ AUTO_SHIFT_ENABLE = no      # Auto Shift
 
 # Custom RGB matrix handling
 RGB_MATRIX_ENABLE = custom
-
-# ------------------------- Made by Tweaky ------------------------- #
-
-UNICODEMAP_ENABLE = no     # A map of unicodes up to 0X10FFFF
-LEADER_ENABLE = no #Enable leader key chording
-COMBO_ENABLE = no #Key combo feature
-POINTING_DEVICE_ENABLE = no #Pointing device https://github.com/qmk/qmk_firmware/blob/master/docs/feature_pointing_device.md
-VELOCIKEY_ENABLE = no # Velocikey https://github.com/qmk/qmk_firmware/blob/master/docs/feature_velocikey.md
-
-# ------------------------- Made by Tweaky (END) ------------------------- #
